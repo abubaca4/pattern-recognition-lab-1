@@ -65,7 +65,7 @@ void MainWindow::on_zome_in_triggered()
 
 void MainWindow::on_zome_out_triggered()
 {
-    imageView.scale(0.8, 0.8);
+    imageView.scale(1/1.2, 1/1.2);
 }
 
 void MainWindow::on_prev_triggered()
