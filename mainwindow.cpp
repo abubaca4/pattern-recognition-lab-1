@@ -104,7 +104,7 @@ void MainWindow::on_next_triggered()
 
 void MainWindow::on_rotate_triggered()
 {
-    imageView.rotate(90);
+    imageView.rotate(-90);
 }
 
 void MainWindow::showImage(QString path){
