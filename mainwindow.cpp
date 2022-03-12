@@ -116,7 +116,7 @@ void MainWindow::showImage(QString path){
     imageScene.update();
     imageView.setSceneRect(image.rect());
     QString status = QString("%1, %2x%3, %4 Байт").arg(path).arg(image.width())
-        .arg(image.height()).arg(QFile(path).size());
+            .arg(image.height()).arg(QFile(path).size());
     ui->statusbar->showMessage(status);
 
     ui->prev->setEnabled(true);
